@@ -20,3 +20,12 @@ You can run the project directly in your browser on Google Colab by clicking the
 This will open the Jupyter Notebook in Google Colab, where you can fine-tune the model or run inference to generate color descriptions based on hex codes.
 
 
+## Results
+
+The model was fine-tuned for **60 steps** due to limited resources on Google Colab, using a **T4 GPU**. Despite the limited training time, the model demonstrated a promising ability to generate descriptive and creative outputs for various hex color codes. Further training could improve performance and generalization.
+
+## Acknowledgments
+
+- Special thanks to the [Color Dataset on Hugging Face](https://huggingface.co/datasets/sreramr/colour) for making the dataset available.
+- Thanks to the Hugging Face team for the amazing Llama models.
+- A big thank to **Unsloth**, the wonderful library that greatly facilitated the fine-tuning process.
